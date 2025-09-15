@@ -1,0 +1,96 @@
+[6.8](10-10-2021)
+- Now all internet info loads at runtime
+- Moved internet info tools to our `master` class, as `master.net`
+
+[6.7](10-10-2021)
+- Updated `info` command
+- Runtime script code enhancement
+- Reduced Script loading time
+- Fixed player's entry execution time 
+
+[6.6](07-10-2021)
+- Updated updating script
+- Fixes in 'skin' command 
+
+[6.5](03-10-2021)
+- Internal code cleanup
+- Added a toggle to remove tickets fucntionality
+- Added init script to load all the things at runtime
+
+[6.4](29-09-2021)
+- Added support for resursive mode for updating json files using builtin update method
+- Made lockdownmode more natural 
+- FIxed entry log
+
+[6.3](28-09-2021)
+- Added support for direct account_id in `add`, `remove` and `ban` commands
+- If lockdownmode enbled, server will auto become at 0 players position
+- Added loggers for players entry and kicks 
+
+[6.2](27-09-2021)
+- Some fixes in lock_down mode
+
+[6.0](27-09-2021)
+- Released Private Server Build with Beta Tag
+- Fixed 2 typos in commands
+- Added support for party queue Entries (See README for better details)
+- Added toggles to enable and disable flymode
+- Added togles for afk kicker service and time period
+- Added extra toggles in map text
+- Internal code cleanup
+
+[5.7](23-09-2021)
+- Handled all internal mods exceptions
+- Some more fixes in lobby spamming and filters
+- Fixed `resetcodes` command
+- Finally fixed internal requests handling
+- Internal traceback logger, it helps me to make script bugs free
+- Added support for multiple backup files with multiple time periods
+- I am not remebering now !
+
+
+[5.6](22-09-2021)
+- Added a command `universal`
+- Added powerfull whitelisting service
+- Added lobby afk service with time customisations
+- Added bot spam measure at internal root (to gain real speed)
+- Written configs information at /ba_root/mods/world/CONFIGS_INFO.md
+- Added universal ban feature (Like once you spam with a bot then you will be targeted as universal ban)
+
+[5.5](19-09-2021)
+- Config class Optimised
+- Added Powerups (Thanks to Bombdash)
+- Fixed a stupid impotation mistake
+- Introduced Plugin system for powerups
+
+[5.4](17-09-2021)
+- Improved startup
+- Fixed a typo in README
+
+[5.3](16-09-2021)
+- Fixed a stupid typo
+- Migrated to `neon` library for internal c++ for better requests
+
+[5.2](16-09-2021)
+- Updated LirikApi
+- Added separate method to generate tokens for LirikAPi, check methods file
+
+[5.1](15-09-2021)
+- Added self updating feature for updating script
+- This version needs to be clean installed
+
+[5.0](15-09-2021)
+- Restructured updating environment
+- This version needs to be clean installed
+
+[4.6](14-09-2021)
+- Fixed commands
+- Changed storage objects to shiny classes
+
+[4.5](13-09-2021)
+- Optimised code
+- Imported all methods to a file called methods.py
+- Written docs for all methods
+
+[1.0](30-06-2021)
+- Initial release

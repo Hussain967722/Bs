@@ -1,0 +1,10 @@
+{
+  "partyName": "My BombSquad",
+  "port": 43210,
+  "maxPlayers": 8,
+  "statsURL": "",
+  "admins": [],
+  "playlistCode": "",
+  "playlistShuffle": true,
+  "enableTelnet": false
+}

@@ -1,0 +1,77 @@
+{
+    "chat": {
+        "bot": true,
+        "spam_time": 1,
+        "chat_log": true,
+        "beg_check": true,
+        "abuse_check": true,
+        "spam_protection": true,
+        "hidden_commands": [
+            "kick",
+            "warn",
+            "dm",
+            "help"
+        ]
+    },
+    "nightmode": {
+        "status": false,
+        "start": 18,
+        "end": 7
+    },
+    "autorole": {
+        "status": false,
+        "admins": 3,
+        "elites": 10
+    },
+    "cooldown": {
+        "info": 50,
+        "find": 500,
+        "stats": 100,
+        "redeem": 200,
+        "promote": 200,
+        "backflip": 10
+    },
+    "backup_service": {
+        "status": true,
+        "period": "weekly",
+        "files": [
+            "stats",
+            "roles"
+        ]
+    },
+    "spaz": {
+        "glow": true,
+        "hidden_tags": []
+    },
+    "kick_idles": {
+        "in_lobby": false,
+        "in_lobby_time": 5,
+        "in_game": false,
+        "in_game_time": 60
+    },
+    "server": {
+        "queue_id": "",
+        "universal_ban": true,
+        "tickets_service": true,
+        "whitelist_mode": false,
+        "kick_newly_created_ids": true
+    },
+    "game": {
+        "snowfall": false,
+        "log_toppers": true,
+        "registration": false,
+        "merge_roles": [
+            "moderators",
+            "owners",
+            "admins"
+        ]
+    },
+    "maptext": {
+        "main": [
+            "🥊From Top 5 To 10 Players Can  Get Tag And More Effects🥊",
+            "---------------------------------\nPublic Commands |skin |info |items |shop\n-------------------------------","🏅|Top 1 2 Admins And 3 VIP🏅|"
+        ],
+        "bottom_left": "-------------------------------------------------\n\ue019 Hosting By : RED TIGER \ue019\n-------------------------------------------------",
+        "bottom_right": "-----------------------------------------------\n\ue043 Managing By : Spyguy \ue043\n----------------------------------------------"
+    }
+}
